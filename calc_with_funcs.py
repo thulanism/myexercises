@@ -25,11 +25,11 @@ v2 = get_second_value()
 
 if vo == "+":
     result = v1+v2
-elif op == "-":
+elif vo == "-":
     result = v1-v2
-elif op == "*":
+elif vo == "*":
     result = v1*v2
-elif op == "/":
+elif vo == "/":
     result = v1/v2
 else:
     result = "Invalid Operator!"
