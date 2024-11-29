@@ -21,6 +21,8 @@ v1 = get_first_value()
 vo = get_operator()
 v2 = get_second_value()
 
+# Select operator
+
 if vo == "+":
     result = v1+v2
 elif op == "-":
