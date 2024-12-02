@@ -1,6 +1,5 @@
 # My first calculation
-print("3*2 = ")
-print(3*2)
+print("3*2 = ",3*2)
 
 # My first variable
 x = 3*2
