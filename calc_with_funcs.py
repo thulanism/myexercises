@@ -34,4 +34,9 @@ elif vo == "/":
 else:
     result = "Invalid Operator!"
 
-print(result)
+# Check 'type' for result before printing
+
+if type(result) is str:
+    print(result)
+else:
+    print(int(result))
