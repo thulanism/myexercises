@@ -2,7 +2,7 @@
 
 # Get first value
 def get_first_value():
-    a = int(input("Enter the first number: "))
+    a = int(input("Enter the first number: #"))
     return a
 
 # Get the operator (+ - * /)
@@ -12,7 +12,7 @@ def get_operator():
 
 # Get second value
 def get_second_value():
-    b = int(input("Enter the second number: "))
+    b = int(input("Enter the second number: #"))
     return b
 
 # Calculate Answer
